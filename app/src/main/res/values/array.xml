@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="stage_background">
+        <item>@drawable/stage1</item>
+        <item>@drawable/stage2</item>
+        <item>@drawable/stage3</item>
+        <item>@drawable/stage4</item>
+        <item>@drawable/stage5</item>
+        <item>@drawable/stage6</item>
+    </array>
+</resources>

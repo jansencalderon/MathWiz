@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#FFF</color>
+    <color name="white">#FFF</color>
+    <color name="border_color">#99AAFF</color>
+    <color name="disabled_color">#c1c1c1</color>
+    <color name="dark_gray">#424242</color>
+
+    <color name="text_color_map1">#4b8eff</color>
+    <color name="text_color_map2">#ff905c</color>
+    <color name="text_color_map3">#ffd52c</color>
+    <color name="text_color_map4">#b6ff2d</color>
+    <color name="text_color_map5">#2effea</color>
+    <color name="text_color_map6">#4fc1ff</color>
+    <color name="text_color_map7">#4b60fd</color>
+    <color name="text_color_map8">#c670ff</color>
+    <color name="text_color_map9">#ff0080</color>
+
+    <color name="text_color_map1_dark">#2161cc</color>
+    <color name="text_color_map2_dark">#e17f52</color>
+    <color name="text_color_map3_dark">#eac327</color>
+    <color name="text_color_map4_dark">#a3e429</color>
+    <color name="text_color_map5_dark">#27e4d1</color>
+    <color name="text_color_map6_dark">#46a9df</color>
+    <color name="text_color_map7_dark">#3b4bc2</color>
+    <color name="text_color_map8_dark">#8f3dc6</color>
+    <color name="text_color_map9_dark">#d9026e</color>
+    <color name="text_color_fade">#e5ffffff</color>
+
+<array name="map_colors">
+    <item>@color/text_color_map1</item>
+    <item>@color/text_color_map2</item>
+    <item>@color/text_color_map3</item>
+    <item>@color/text_color_map4</item>
+    <item>@color/text_color_map5</item>
+    <item>@color/text_color_map6</item>
+    <item>@color/text_color_map7</item>
+    <item>@color/text_color_map8</item>
+    <item>@color/text_color_map9</item>
+    <item>@color/text_color_fade</item>
+</array>
+</resources>

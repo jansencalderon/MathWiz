@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Math Logic</string>
+    <string name="title_activity_stages">Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="back"><![CDATA[< BACK]]></string>
+    <string name="back_to_main_menu"><![CDATA[< BACK TO MAIN MENU]]></string>
+    <string name="prev"><![CDATA[<]]></string>
+
+
+</resources>

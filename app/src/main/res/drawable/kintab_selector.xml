@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="50dp" android:height="20dp" android:drawable="@drawable/kintab_pressed" android:state_pressed="true" />
+    <item android:width="50dp" android:height="20dp" android:drawable="@drawable/kintab_pressed" android:state_focused="true" />
+    <item android:width="50dp" android:height="20dp" android:drawable="@drawable/kintab_unpressed" android:state_enabled="true" android:state_focused="false" android:state_pressed="false" />
+    <item android:width="50dp" android:height="20dp" android:drawable="@drawable/kintab_pressed" android:state_enabled="false" />
+</selector>

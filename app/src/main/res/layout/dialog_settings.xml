@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/congrats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:layout_marginBottom="20dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/options" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/dialog_close"
+        android:layout_alignEnd="@id/imageView"
+        android:layout_alignTop="@id/imageView"
+        android:background="@null" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="66dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/music"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/music_on" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="66dp"
+            android:id="@+id/sounds"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/sounds_on" />
+
+        <Button
+            android:id="@+id/credits"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/kintab_selector"
+            android:onClick="start"
+            android:padding="5dp"
+            android:text="CREDITS"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+</RelativeLayout>
